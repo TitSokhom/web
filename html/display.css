@@ -1,6 +1,30 @@
-p{
-    display: inline;
+/* p{
+    display: inline-block;
+    width: 90%;
 }
 span{
-    display: block;
-}
+    display: inline;
+    width: 90%;
+} */
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .container p:first-child{
+    color: blue;
+ }
+ input:focus{
+    padding: 10px;
+    border-radius: 5px;
+ }
+ button:hover{
+    background-color: aqua;
+    width: 100px;
+    height: 25px;
+    margin-left: 4px;
+ }
+ .container :not(h1){
+    font-size: 30px;
+ }
